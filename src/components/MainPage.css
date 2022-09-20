@@ -1,0 +1,155 @@
+.main-page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "SpaceGroteskMedium";
+  text-transform: uppercase;
+}
+
+.back-card {
+  position: absolute;
+  top: 370px;
+  left: 230px;
+}
+
+.card-logo {
+  width: 55px;
+  position: absolute;
+  top: 120px;
+  left: 185px;
+}
+
+.card-number {
+  font-size: 34px;
+  color: whitesmoke;
+  position: absolute;
+  top: 190px;
+  left: 185px;
+}
+
+.card-holder {
+  color: whitesmoke;
+  position: absolute;
+  top: 275px;
+  left: 185px;
+}
+
+.card-month {
+  color: whitesmoke;
+  position: absolute;
+  top: 275px;
+  left: 529.5px;
+}
+
+.card-year {
+  color: whitesmoke;
+  position: absolute;
+  top: 275px;
+  left: 553px;
+}
+
+.card-cvc {
+  color: whitesmoke;
+  position: absolute;
+  top: 465px;
+  left: 595px;
+  font-size: 16px;
+}
+
+.bar {
+  color: whitesmoke;
+  position: absolute;
+  top: 287px;
+  left: 548px;
+  font-size: 14px;
+}
+
+.card-front {
+  background-image: linear-gradient(to top left, #22c1c3, #fdbb2d);
+  width: 447px;
+  height: 245px;
+  border-radius: 8px;
+  position: absolute;
+  top: 90px;
+  left: 150px;
+}
+
+@media only screen and (max-width: 375px) {
+  .back-card {
+    padding-right: 20px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+  }
+
+  .card-front {
+    background-image: linear-gradient(to top left, #22c1c3, #fdbb2d);
+    width: 447px;
+    height: 245px;
+    border-radius: 8px;
+    position: absolute;
+    top: 199px;
+    left: 20px;
+    z-index: 1;
+  }
+
+  .card-logo {
+    width: 55px;
+    z-index: 1;
+    position: absolute;
+    top: 235px;
+    left: 55px;
+  }
+
+  .card-number {
+    font-size: 34px;
+    z-index: 1;
+    color: whitesmoke;
+    white-space: nowrap;
+    position: absolute;
+    top: 300px;
+    left: 55px;
+  }
+
+  .card-holder {
+    z-index: 1;
+    color: whitesmoke;
+    position: absolute;
+    top: 380px;
+    left: 55px;
+  }
+
+  .card-month {
+    z-index: 1;
+    color: whitesmoke;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+  }
+
+  .card-year {
+    z-index: 1;
+    color: whitesmoke;
+    position: absolute;
+    top: 380px;
+    left: 425px;
+  }
+
+  .bar {
+    z-index: 1;
+    color: whitesmoke;
+    position: absolute;
+    top: 392.5px;
+    left: 419px;
+    font-size: 14px;
+  }
+
+  .card-cvc {
+    color: whitesmoke;
+    position: absolute;
+    top: 155px;
+    left: 465px;
+    font-size: 16px;
+  }
+}
