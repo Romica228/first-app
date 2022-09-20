@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://romica228.github.io/Interactive-card-details-form",
+  "homepage": "https://romica228.github.io/first-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
