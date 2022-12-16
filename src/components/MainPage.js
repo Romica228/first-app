@@ -15,35 +15,12 @@ const MainPage = function () {
     const values = {
       ...enteredValues,
     };
-    if (values.holder) {
-      setHolder(values.holder);
-    } else {
-      setHolder("Jane Appleseed");
-    }
 
-    if (values.number) {
-      setNumber(values.number);
-    } else {
-      setNumber("0000 0000 0000 0000");
-    }
-
-    if (values.month) {
-      setMonth(values.month);
-    } else {
-      setMonth("00");
-    }
-
-    if (values.year) {
-      setYear(values.year);
-    } else {
-      setYear("00");
-    }
-
-    if (values.cvc) {
-      setCvc(values.cvc);
-    } else {
-      setCvc("000");
-    }
+    values.holder ? setHolder(values.holder) : setHolder("Jane Appleseed");
+    values.number ? setNumber(values.number) : setNumber("0000 0000 0000 0000");
+    values.month ? setMonth(values.month) : setMonth("00");
+    values.year ? setYear(values.year) : setYear("00");
+    values.cvc ? setCvc(values.cvc) : setCvc("000");
   };
 
   return (
